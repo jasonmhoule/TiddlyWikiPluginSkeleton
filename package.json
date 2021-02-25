@@ -20,6 +20,7 @@
     "winstart": "start \"TW5 Plugin Develop\" cmd /c tiddlywiki editions/develop --verbose --server 8080 $:/core/save/all text/plain text/html",
     "winstop": "taskkill /fi \"WINDOWTITLE eq TW5 Plugin Develop\"",
     "develop": "tiddlywiki editions/develop --verbose --server 8080 $:/core/save/all text/plain text/html",
+    "develop_external": "tiddlywiki editions/develop --verbose --server 8080 $:/core/save/all text/plain text/html \"\" \"\" 0.0.0.0",
     "release": "tiddlywiki editions/release --verbose --build release"
   },
   "dependencies": {
